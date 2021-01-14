@@ -41,3 +41,5 @@ def run_jarvis(command_new):
     if 'play' in command:
         print('playing...')
         talk('Playing')
+        talk(command)
+
